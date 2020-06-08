@@ -2,7 +2,7 @@ import { setOwner } from '@ember/application';
 import { setModifierManager } from '@ember/modifier';
 import Manager from './modifier-manager';
 import { symbol } from '../utils/symbol';
-import { ModifierArgs } from 'ember-modifier/-private/interfaces';
+import { ModifierArgs } from '../interfaces';
 
 export const DESTROYING: unique symbol = symbol('destroying');
 export const DESTROYED: unique symbol = symbol('destroyed');

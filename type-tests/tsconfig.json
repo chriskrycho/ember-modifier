@@ -1,0 +1,7 @@
+{
+  "extends": "..",
+  "include": ["./modifier-test.ts"],
+  "compilerOptions": {
+    "paths": {}
+  }
+}

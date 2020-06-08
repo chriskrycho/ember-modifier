@@ -25,7 +25,7 @@
     "test": "ember test",
     "pretest": "npm-run-all prepublish:*",
     "posttest": "npm run clean",
-    "test:types": "ember try:each --config-path=./config/ember-try-typescript.js",
+    "test:types": "yarn --cwd type-tests && ember try:each --config-path=./config/ember-try-typescript.js",
     "test:all": "ember try:each",
     "prepublish:types": "ember ts:precompile",
     "prepublish:downlevel": "downlevel-dts . ts3.4",
@@ -118,7 +118,9 @@
   "types": "index.d.ts",
   "typesVersions": {
     "<3.9": {
-      "*": "ts3.4/*"
+      "*": [
+        "ts3.4/*"
+      ]
     }
   }
 }

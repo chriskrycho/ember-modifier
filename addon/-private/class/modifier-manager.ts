@@ -8,7 +8,7 @@ import ClassBasedModifier, {
   DESTROYED,
   InTeardown,
 } from './modifier';
-import { ModifierArgs } from 'ember-modifier/-private/interfaces';
+import { ModifierArgs } from '../interfaces';
 
 function scheduleDestroy(modifier: ClassBasedModifier, meta: Ember.Meta): void {
   if (modifier[DESTROYED]) {
