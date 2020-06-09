@@ -1,7 +1,4 @@
 {
   "name": "type-tests",
-  "private": true,
-  "devDependencies": {
-    "ember-modifier": "link:.."
-  }
+  "private": true
 }

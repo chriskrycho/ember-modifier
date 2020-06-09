@@ -1,5 +1,5 @@
 {
-  "extends": "..",
+  "extends": "../tsconfig.json",
   "include": ["./modifier-test.ts"],
   "compilerOptions": {
     "paths": {}
