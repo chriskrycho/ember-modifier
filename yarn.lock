@@ -4452,6 +4452,10 @@ ember-modifier-manager-polyfill@^1.2.0:
     ember-cli-version-checker "^2.1.2"
     ember-compatibility-helpers "^1.2.0"
 
+"ember-modifier@link:.":
+  version "0.0.0"
+  uid ""
+
 ember-qunit@^4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-4.5.1.tgz#dc4b0a794fbeb6702a02f28bf19091de0f90fd5a"
